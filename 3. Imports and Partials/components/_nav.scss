@@ -1,0 +1,28 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    font-family: sans-serif;
+    background-color: white;
+    align-items: center;
+    position: fixed;
+    padding: 20px;
+    width: 100%;
+    .logo-container{
+        margin-left: 20px;
+    }
+    ul{
+        margin-right: 40px;
+        li{
+            display: inline;
+            list-style: none;
+            margin-left: 30px;
+            a{
+                text-decoration: none;
+                color: black;
+            }
+            a:hover{
+                border-bottom: solid black 1px;
+            }
+        }
+    }
+}
